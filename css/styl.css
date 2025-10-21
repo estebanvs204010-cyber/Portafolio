@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #DCC7AA;
+    margin: auto;
+}
+
+/* header */
+header {
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.0rem;
+    background-color: #B89678;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    position: fixed;
+}
+
+.ContenedorHeader {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.encabesado {
+    font-size: 2.0rem;
+}
+
+.lista ul {
+    display: flex;
+    gap: 2rem;
+}
+
+samp {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFF9F3;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+/* sobremi */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-self: center;
+    padding-top: 5rem;
+    box-shadow: 0px 4px 1px 4px rgba(0, 0, 0, 0.1);
+    color: #2B2B2B;
+}
+
+.Sobre-Mi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+
+.sobreMI {
+    flex: 1;
+    margin-left: 3rem;
+}
+
+.sobreMI h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.sobreMI p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+/* contactame */
+.RedesSociales {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.RedesSociales a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #000000;
+    background-color: #B89678;
+
+
+}
+
+.RedesSociales a:hover {
+    background-color: #FFF9F3;
+
+    box-shadow:
+        0 0 10px #FFD6AA,
+        0 0 20px #FFD6AA,
+        0 0 40px #FFD6AA,
+        0 0 60px #FFD6AA;
+    /* brillo neón */
+    transition: 0.3s;
+    transform: translateY(-4px);
+}
+
+.MiPerfil {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+}
+
+.MiPerfil img {
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid #FFD6AA;
+    /* tono claro del fondo */
+    box-shadow:
+        0 0 10px #FFD6AA,
+        0 0 20px #FFD6AA,
+        0 0 40px #FFD6AA,
+        0 0 60px #FFD6AA;
+    /* brillo neón */
+    transition: 0.3s;
+}
+
+/* miExperiensia */
+.ContenedorExperienza {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+    color: #2B2B2B;
+
+}
+
+.experience {
+    border: 2px solid;
+    border-color: #B89678;
+
+
+}
+
+.MisProyectos {
+    border: 2px solid;
+    border-color: #B89678;
+}
+
+.MisEstudios {
+    border: 2px solid;
+    border-color: #B89678;
+}
+
+/* PROYECTOS */
+.ContenedorProyecto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.PrmerProyecto {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+    border: 2px solid;
+    border-color: #B89678;
+    overflow: hidden;
+}
+
+.SegundoProyecto {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 5%;
+    border: 2px solid;
+    border-color: #B89678;
+    overflow: hidden;
+}
+
+.imagen{
+    height: 80%;
+    width: 100%;
+}
+
+footer {
+    background-color: #B89678;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
